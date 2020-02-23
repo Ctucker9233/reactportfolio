@@ -1,0 +1,22 @@
+.bg-primary{
+    background-color: #ba0d2a !important;
+    color: white;
+}
+.navbar-brand{
+    color:white;
+}
+
+.nav-item{
+    color:white;
+}
+a{
+    color:white;
+}
+
+a:hover{
+    color: black;
+}
+
+img{
+    width: 100%;
+}
