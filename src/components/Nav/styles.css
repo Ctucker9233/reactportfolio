@@ -6,6 +6,11 @@
     color:white;
 }
 
+.navbar-toggler-icon{
+    color: white;
+    z-index: -1;
+}
+
 .nav-item{
     color:white;
 }

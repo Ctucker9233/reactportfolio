@@ -13,27 +13,23 @@ function Portfolio() {
 
     return (
         <Container fluid>
-            <Row className="portfolio">
-                <Col size="md-6">
+            <Row class="portfolio">
+                <Col size="md-6 sm-12">
                     <PortfolioCard href="https://taylornburrows.github.io/shot_caller/" src={shotcaller} alt="Shot Caller" title="Shot Caller" />
                 </Col>
-                <Col size="md-6">
+                <Col size="md-6 sm-12">
                     <PortfolioCard href="https://dungeon-bud.herokuapp.com/" src={dungeonbud} alt="Dungeon Bud" title="Dungeon Bud" />
                 </Col>
-            </Row>
-            <Row className="portfolio">
-                <Col size="md-6">
+                <Col size="md-6 sm-12">
                     <PortfolioCard href="https://ctucker9233.github.io/Weather-Forcast/" src={weatherforecast} alt="Weather Forecast" title="Weather Forecast" />
                 </Col>
-                <Col size="md-6">
+                <Col size="md-6 sm-12">
                     <PortfolioCard href="https://ctucker9233.github.io/Daily-Planner/" src={dailyplanner} alt="Daily Planner" title="Daily Planner" />
                 </Col>
-            </Row>
-            <Row className="portfolio">
-                <Col size="md-6">
+                <Col size="md-6 sm-12">
                     <PortfolioCard href="https://ctucker9233.github.io/Coding-Quiz/" src={codingquiz} alt="Coding Quiz" title="Coding Quiz" />
                 </Col>
-                <Col size="md-6">
+                <Col size="md-6 sm-12">
                     <PortfolioCard href="https://ctucker9233.github.io/Password-Generator-JS/" src={password} alt="Password Generator" title="Password Generator" />
                 </Col>
             </Row>

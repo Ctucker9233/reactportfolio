@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper{
+  background: url("./images/brushed_alu_dark.png") !important;
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover;
+  min-height: 100vh;
+}

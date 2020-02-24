@@ -9,7 +9,7 @@ import Portfolio from "./pages/Portfolio"
 function App() {
   return (
     <Router>
-      <div>
+      <div className="wrapper">
         <Nav />
         <Switch>
           <Route exact path ={["/", "/about"]}>

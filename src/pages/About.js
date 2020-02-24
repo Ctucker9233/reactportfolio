@@ -7,7 +7,7 @@ function About() {
 
     return (
         <Container fluid>
-            <Row className="about">
+            <Row name="about">
                 <Col size="md-4">
                     <img src={profileimg} className="img-fluid profile" alt="Courtney Tucker" />
                 </Col>
