@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
+import Header from "../components/Header/index"
 import profileimg from "../images/profile-pic.jpg"
 import "./styles.css"
 
@@ -8,6 +9,9 @@ function About() {
     return (
         <Container fluid>
             <Row name="about">
+                <Col size="md-12">
+                    <Header header="About Me" />
+                </Col>
                 <Col size="md-4">
                     <img src={profileimg} className="img-fluid profile" alt="Courtney Tucker" />
                 </Col>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import PortfolioCard from "../components/PortfolioCard"
+import Header from "../components/Header/index"
 import "./styles.css"
 import shotcaller from "../images/Flaming-shots-iStock.jpg"
 import dungeonbud from "../images/rpg2.jpg"
@@ -13,6 +14,11 @@ function Portfolio() {
 
     return (
         <Container fluid>
+            <Row>
+                <Col size="md-12">
+                    <Header header="Porfolio" />
+                </Col>
+            </Row>
             <Row class="portfolio">
                 <Col size="md-6 sm-12">
                     <PortfolioCard href="https://taylornburrows.github.io/shot_caller/" src={shotcaller} alt="Shot Caller" title="Shot Caller" />
